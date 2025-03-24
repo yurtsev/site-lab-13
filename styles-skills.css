@@ -5,15 +5,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-
-
-
-
-
-
-
-
 .container{
     display: flex;
     align-items: center;
@@ -65,10 +56,37 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
 .div-footer{
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.label-hover {
+    padding: 0 0.7vw;
+}
+.label-hover:hover {
+    border-radius: 0.5vw;
+    background-color: #163D3B;
+    cursor: pointer;
+}
+.select-page {
+    padding: 0 0.7vw;
+    background-color: #45A29E;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    color: #1F2833;
+}
+a {
+    text-decoration: none;
+    color: #45a29e;
+}
+a:visited {
+    color: #45a29e;
 }
